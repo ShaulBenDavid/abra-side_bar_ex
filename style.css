@@ -1,0 +1,92 @@
+/* Main content */
+.main-container{
+ min-width: 1950px;
+}
+
+/* Side bar */
+.side-bar{
+    width: 343px;
+    height: 1080px;
+    background-color: var(--primary-color);
+    padding-left: 64px;
+    display: inline-block;
+}
+
+.logo{
+    top: 32px;
+    position: absolute;
+}
+
+/* Links */
+
+.links {
+    list-style: none;
+    padding: 0;
+    padding-top: 160px;
+}
+
+.links li{
+    margin-bottom: 24px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--ui-white);
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Right side */
+.content-side{
+    display: inline-block;
+    vertical-align: top;
+}
+.article-container{
+    background: url(./assets/woman-img.png) no-repeat;
+    width: 1577px;
+    height: 821px;
+    padding-left: 175px;
+    padding-top: 238px;
+}
+
+.article-container article{
+    width: 581px;
+}
+
+/* article section */
+.subtitle{
+    text-transform: uppercase;
+}
+
+/* Cards */
+
+/* colors */
+.yellow{
+    background-color: #ff9f00;
+}
+
+.orange{
+    background-color: #ff7748;
+}
+
+.pink{
+    background-color: #ff5288;
+}
+
+.cards{
+    width: 526px;
+    height: 259px;
+    padding: 32px 64px 32px 32px;
+    display: inline-block;
+}

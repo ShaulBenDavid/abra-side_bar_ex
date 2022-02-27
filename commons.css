@@ -1,0 +1,104 @@
+/* Colors */
+:root{
+    --primary-color: #0e1649;
+    --secondary-color: #ff9f00;
+    --ui-white: #fff;
+    --ui-black: #1c1c1c;
+}
+/* Logo */
+.logo {
+    background: url(./assets/Logo.png);
+    width: 258px;
+    height: 64px;
+    cursor: pointer;
+}
+
+/* Text tags */
+h3{
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--ui-black);
+}
+
+h1{
+    font-family: Times New Roman;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: #0e1649;
+    text-transform: capitalize;
+}
+
+h2{
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: var(--ui-black);
+}
+
+p{
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+
+/* Space tampletes */
+.s-margin-top{
+    margin-top: 16px;
+}
+
+/* .s-margin-top{
+    margin-top: 16px;
+} */
+
+
+/* Form assets */
+
+button{
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: #ff9f00;
+    flex-grow: 0;
+    border: none;
+    cursor: pointer;
+    font-family: Assistant;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--ui-white);
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #f08e0e;
+}
+
+button:active{
+    background-color: #fb3;
+}
